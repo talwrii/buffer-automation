@@ -14,7 +14,7 @@ Instead of using an interface to schedule every tweet, you write the tweets you 
 2025-02-01T12:00:00Z  This is my first tweet
 
 # comment
-2025-02-01T13:00:00Z  This is my second tweet and hour later
+2025-02-01T13:00:00Z  This is my second tweet an hour later
 ```
 
 This is useful because you can keep notes / move tweets around etc and see everything in one page.
