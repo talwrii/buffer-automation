@@ -61,6 +61,11 @@ I'm probably not going to make your feature for you. I will probably add my feat
 ## Development
 I tried to implement this as a bookmarklet in javascript but had issues automating the processing of typing the tweet.
 
+## Alternatives
+While buffer does not provide an API itself (any more) it does provide an API to some "integration" services such as [Zapier](https://github.com/talwrii/buffer-automation/edit/master/README.md), [if this then than](https://ifttt.com/buffer) and [microsoft power automate](https://make.powerautomate.com/connectors/shared_buffer/buffer/). I have found tools like IFTTT difficult to debug before as you run them "at a distance" but power automate looks more set up for "programming". 
+
+I *may* have implemented this using one of these services if I had known about this before implementing (mostly to avoid the fragility of browser automation), though these "integrations" tend to have lots of moving parts, take longer than expect and often cost additional money. This works and is quite controlled.
+
 # About me
 *If you are interested in this you might specifically like to read my blog post about [reading and agency](https://github.com/talwrii/buffer-automation) since you are likely interested in social media*
 
