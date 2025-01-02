@@ -62,6 +62,8 @@ I'm probably not going to make your feature for you. I will probably add my feat
 I tried to implement this as a bookmarklet in javascript but had issues automating the processing of typing the tweet.
 
 # About me
+*If you are interested in this you might specifically like to read my blog post about [reading and agency](https://github.com/talwrii/buffer-automation) since you are likely interested in social media*
+
 I am @readwithai I am interested in tools for reading, autonomy and ai with a focus on tooling around Obsidian. If any of this sound interesting read my [blog](
 https://readwithai.substack.com/). You can also follow me on [𝕏](https://x.com/readwithai).
 
