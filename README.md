@@ -1,11 +1,11 @@
 # Buffer automattion -- Schedule tweets to buffer from the clipboard
 [@readwithai](https://x.com/readwithai) ([🦋](https://bsky.app/profile/readwithai.bsky.social), [𝕏](https://x.com/readwithai), [blog](https://readwithai.substack.com/), [▶️](https://www.youtube.com/@readerai/shorts)) 
 
-This is a quite hacky automation script for the [Buffer](https://buffer.com/) social media automation website. It allows you to schedule tweets in a way that I find (and hopefully is simpler) by reading tweets in a text form from the clipboard.
+This is a quite hacky automation script for the [Buffer](https://buffer.com/) social media automation website. It allows you to schedule tweets in a way that I find (and hopefully is) simpler by reading tweets in a text from the clipboard together with a date.
 
 This is meant to allow you to do all you thinking and planning in a text file before scheduling tweets.
 
-For the moment you need to be familiar with the Python language to use this tool
+For the moment, you need to be familiar with the Python language to use this tool
 
 ## How this works
 Instead of using an interface to schedule every tweet, you write the tweets you want to send and when in a text file like so:
@@ -51,6 +51,12 @@ b.post_clipboard() # run this every time you want to tweet somethingy
 
 ## Maintenance
 I'm probably not going to make your feature for you. I will probably add my feature here. If you have something useful, that I am personally likely to find useful I will probably accept your patch. I will use this tool a lot daily so it will be moderately maintained and likely improve over time. 
+
+## Features I'm likely to add
+- Buffer supports thread - I will probably add something to suppor this eventually.
+- Buffer supports bluesky and other social media sites - I may well add the ability to use these at some points
+- I will probably add a feature to send multiple tweets at the same time
+- I might add a feature to remove scheduled tweets (perhaps just all of them)
 
 ## Development
 I tried to implement this as a bookmarklet in javascript but had issues automating the processing of typing the tweet.
