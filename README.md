@@ -1,4 +1,4 @@
-# Schedule tweets to buffer from the clipboard
+# Buffer automattion -- Schedule tweets to buffer from the clipboard
 [@readwithai](https://x.com/readwithai) ([🦋](https://bsky.app/profile/readwithai.bsky.social), [𝕏](https://x.com/readwithai), [blog](https://readwithai.substack.com/), [▶️](https://www.youtube.com/@readerai/shorts)) 
 
 This is a quite hacky automation script for the [Buffer](https://buffer.com/) social media automation website. It allows you to schedule tweets in a way that I find (and hopefully is simpler) by reading tweets in a text form from the clipboard.
