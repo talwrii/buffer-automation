@@ -13,7 +13,7 @@ def parse_threads(image_base: Path, data: str):
     for line in lines:
         if line.strip().startswith("-"):
             message = line.strip(" -")
-            message, images = extract_images(image_base, line)
+            message, images = extract_images(image_base, message)
             thread["messages"].append(message)
             thread["images"].append(images)
         else:
