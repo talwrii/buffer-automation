@@ -48,9 +48,23 @@ b.login()
 b.post_clipboard() # run this every time you want to tweet somethingy
 
 ```
+# Threads
+Buffer automation supports threads. To create a thread add "threaded messages with a - like you would a bullet point".
+
+```
+2025-02-01T12:00:00Z  This is my first tweet
+ - My next tweet in the thre thread
+ - My third tweet
+```
+
+# Images and videos
+Butter automation supports images. If you want to add a tweet to an image include a markdown embed link `![[page.png]]` (note the leading exclamation mark). This is the syntax used in markdown.
+
+Images should either be absolute, or you should tell buffer automation where to look with `--image-path`. (You can also set this in the `--config` yaml file)
+
 
 ## Maintenance
-I'm probably not going to make your feature for you. I will probably add my feature here. If you have something useful, that I am personally likely to find useful I will probably accept your patch. I will use this tool a lot daily so it will be moderately maintained and likely improve over time. 
+I'm probably not going to make your feature for you. I will probably add my features here. If you have something useful, that I am personally likely to find useful I will probably accept your patch. I will use this tool a lot daily so it will be moderately maintained and likely improve over time. I might fix you bug if I am likely to hit it.
 
 ## Features I'm likely to add
 - Buffer supports thread - I will probably add something to suppor this eventually.
